@@ -1,0 +1,39 @@
+.sectionBox {
+  border-radius: 16px;
+  background-color: var(--white);
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.sectionBox > div {
+  flex: 1;
+  padding: 10px;
+}
+
+.bar {
+  height: 4px;
+  width: 100%;
+}
+
+.active > p {
+  color: var(--primary);
+  margin-top: 0;
+  font-size: 12px;
+}
+
+.active > .bar {
+  background-color: var(--primary);
+}
+
+.deactive > p {
+  color: var(--light);
+  margin-top: 0;
+  font-size: 12px;
+}
+
+.deactive > .bar {
+  background-color: var(--light);
+}

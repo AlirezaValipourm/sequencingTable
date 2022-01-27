@@ -1,0 +1,45 @@
+.footerBox {
+  padding: 5px 30px;
+}
+
+.footerBox > .mainFooter {
+  background-color: var(--footerBg);
+  border-radius: 16px;
+  padding: 30px;
+  display: flex;
+}
+.footerBox > .mainFooter > hr {
+  border: 0;
+  width: 2px;
+  background-color: var(--dark);
+}
+
+.footerBox > .mainFooter > .infoBox {
+  flex: 1;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  text-align: center;
+}
+
+.footerBox > .mainFooter > .infoBox > .logo {
+  width: 10%;
+  display: inline-block;
+}
+
+.footerBox > .mainFooter > .infoBox > .contactUs {
+  font-size: 20px;
+}
+
+.footerBox > .mainFooter > .infoBox > .telegramId {
+  margin: 20px 0;
+}
+
+.footerBox > .copyright {
+  text-align: center;
+  padding: 5px;
+  color: var(--dark);
+}

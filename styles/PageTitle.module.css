@@ -1,0 +1,14 @@
+.title1 {
+  margin: 20px auto;
+  width: fit-content;
+  font-size: 24px;
+  color: var(--default);
+  opacity: 0.2;
+}
+
+.title2 {
+  margin: 20px auto;
+  width: fit-content;
+  color: var(--default);
+  font-size: 30px;
+}

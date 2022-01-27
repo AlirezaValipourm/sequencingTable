@@ -1,0 +1,19 @@
+.mainBox {
+  display: block;
+  width: 100%;
+}
+.mainBox > .sessionPrice {
+  font-size: 10px;
+  margin: 10px 0;
+}
+.mainBox > .bottomBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.boldText {
+  font-size: 20px;
+  color: var(--primary);
+}

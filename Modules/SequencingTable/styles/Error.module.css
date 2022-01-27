@@ -1,0 +1,8 @@
+.errorHolder {
+  background-color: var(--white);
+  border-radius: 16px;
+  padding: 15px;
+  text-align: center;
+  color: var(--danger);
+  font-size: 18px;
+}

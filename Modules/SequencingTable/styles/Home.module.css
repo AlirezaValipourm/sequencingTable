@@ -12,6 +12,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .hr {
@@ -38,4 +39,12 @@
 
 .goToMeeting > .errroText {
   margin: 20px 0;
+}
+@media screen and (max-width: 1000px) {
+  .mainContent > .topSection {
+    justify-content: center;
+  }
+  .mainContent > .topSection > div {
+    margin: 20px;
+  }
 }
